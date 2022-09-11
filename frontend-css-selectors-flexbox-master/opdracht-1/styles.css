@@ -1,0 +1,63 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+* {
+    margin: 0;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.edhub {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.box {
+    display: inline-block;
+    flex-direction: row;
+    padding: 25px;
+    margin: 0px;
+
+}
+.edhub-opdracht-twee {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.invullen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.naam-wachtwoord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.boxtwo {
+    display: inline-block;
+
+
+
+}
